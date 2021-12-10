@@ -12,11 +12,11 @@ def home(request):
 def profile(request):
     return render(request, "profile.html")
 
-def about(request):
-    return render(request, "about.html");
+# def about(request):
+#     return render(request, "about.html")
 
-def contact(request):
-    return render(request, "contact.html")
+# def contact(request):
+#     return render(request, "contact.html")
 
 def expression(request):
     a=int(request.POST["text1"])
