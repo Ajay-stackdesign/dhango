@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="red">
+     <div class="header">
+        <a href='#'>Home</a>
+         <a href="app2/signup">signup</a>
+
+<!--        <a href="profile">Profile</a>-->
+<!--        <a href="about">About</a>-->
+<!--        <a href="contact">Contact</a>-->
+    </div>
+    <h1>link to {{titles}}</h1>
+    <form action="expression" method="post">
+        {% csrf_token %}
+        1st value: <input type="text" placeholder="enter the number" name="text1">
+        2st value: <input type="text" placeholder="enter the number" name="text2">
+        <input type="submit">
+    </form>
+
+</body>
+</html>
