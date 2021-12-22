@@ -36,7 +36,7 @@ list = [2,3,4,5,10,2];
 j = len(arr)
 p = 10
 
-result = linearSearch(list,j,p)
+result = linearSearching(list,j,p)
 if(result == -1):
     print("x is not preesend in the arr")
 else:
