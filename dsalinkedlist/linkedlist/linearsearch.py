@@ -26,4 +26,19 @@ else:
 
 # but this is the worst case as we have to move to the every point in the list
 
+def linearSearching(list, j , p):
+    for x in range(0, j):
+        if(list[x] == p):
+            return i;
+    return -1;
+
+list = [2,3,4,5,10,2];
+j = len(arr)
+p = 10
+
+result = linearSearch(list,j,p)
+if(result == -1):
+    print("x is not preesend in the arr")
+else:
+    print("x is present in the arr")
 
