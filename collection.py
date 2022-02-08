@@ -25,18 +25,19 @@
 
 from collections import namedtuple
 
-# employ = namedtuple("employer",["name","salary","age"])
-# point = employ("ajay",34444,23);
-# print(point[1])
-# print("the name of the employer",point.name);
-# print("the salary of the employer",point.salary);
-# print("the age of the employer",point.age)
+employ = namedtuple("employer",["name","salary","age"])
+point = employ("ajay",34444,23);
+print(point[1])
+print("the name of the employer",point.name);
+print("the salary of the employer",point.salary);
+print("the age of the employer",point.age)
 
-student = namedtuple("student",["name","div","number"])
+# student = namedtuple("student",["name","div","number"])
 
-point = student("ajay","a",23)
-print("working as a full stack developer",point.name)
-print("got a cerificate",point.div)
+
+# point = student("ajay","a",23)
+# print("working as a full stack developer",point.name)
+# print("got a cerificate",point.div)
 
 
 
