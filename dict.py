@@ -16,7 +16,8 @@ print(myDict2)
 myDict3 = {
     "name": "ajay",
     "age": 22,
-    "school": "sdv"
+    "school": "sdv",
+    "div": "A"
 }
 myDict3["name"] = "geeta"
 del myDict3["name"]
