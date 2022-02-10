@@ -1,10 +1,10 @@
-# list = ["banana","apple","orange","mango","cherry"]
-# print(list[-1])
+list = ["banana","apple","orange","mango","cherry"]
+print(list[-1])
 
-# if "cherry" in list:
-#     print("yes");
-# else:
-#     print("no")
+if "cherry" in list:
+    print("yes");
+else:
+    print("no")
 list = ["banana","apple","orange","mango","cherry"]
 for x in list:
     if list[0] == "banana":
