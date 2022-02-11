@@ -33,6 +33,8 @@ elif op == "/" :
 else :
     print("enter a valid operator")
 
+print(list[::-1])
+
     
 
 
