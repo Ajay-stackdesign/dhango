@@ -53,6 +53,7 @@ def countSwaps(a):
                 a[j + 1] = temp
                 swapped += 1
     print("Array is sorted in", swapped, "swaps.")
+    
     print("First Element:", a[0])
     print("Last Element:", a[-1])
 if __name__ == '__main__':
