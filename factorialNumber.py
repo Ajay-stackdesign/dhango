@@ -7,8 +7,10 @@ def fact(num):
         # print(num * fact(num -1))
 
 number = 5
+
 factor = fact(number)
 print(factor)
+
 
 
 
