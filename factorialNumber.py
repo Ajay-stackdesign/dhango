@@ -13,9 +13,9 @@
 #
 #
 #
-# arraay = [2,2,3,4]
-#
-# print(arraay[::-1])
+arraay = [2,2,3,4]
+
+print(arraay[::-1])
 #
 #
 # print alternate elements of an arrat:
