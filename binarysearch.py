@@ -51,28 +51,28 @@
 #     print("Element is not present in array")
 
 # algorithm for this code:
+
+def binary_Search(arr, query):
+    lo = 0
+    li = len(arr) - 1
+
+    while lo <= li:
+#         mid = len(arr) // 2
 #
-# def binary_Search(arr, query):
-#     lo = 0
-#     li = len(arr) - 1
+#         if arr[mid] == query:
+#             return mid
 #
-#     while lo <= li:
-# #         mid = len(arr) // 2
-# #
-# #         if arr[mid] == query:
-# #             return mid
-# #
-# #         elif arr[mid] < query:
-# #             return mid+1
-# #         elif arr[mid] > query:
-# #             return mid-1
-# #         return -1
-# #
-# # arr = [2,3,4,5,6,7,9]
-# # query = 4
-# #
-# # result = binary_Search(arr,query)
-# # print(result)
+#         elif arr[mid] < query:
+#             return mid+1
+#         elif arr[mid] > query:
+#             return mid-1
+#         return -1
+#
+# arr = [2,3,4,5,6,7,9]
+# query = 4
+#
+# result = binary_Search(arr,query)
+# print(result)
 # def merge_sort(arr):
 #     if len(arr) <= 1:
 #         return
