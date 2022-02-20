@@ -43,6 +43,22 @@
 # #     can = [3,2,1,3]
 # #     bubble_sort(can)
 # #     # print(can)
+
+def bubbleSort(self, arr, n):
+    # code here
+    size = len(n)
+
+    for i in range(size - 1):
+        swapped = False
+
+        for j in range(size - 1 - i):
+            if arr[j] > arr[j + 1]:
+                temp = arr[j]
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp
+                swapped = True
+            if not swapped:
+                break
 #
 # # class BinarySearchTreeNode:
 # #     def __init__(self, data):
