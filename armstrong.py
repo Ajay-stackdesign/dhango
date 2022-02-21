@@ -9,4 +9,4 @@ while temp > 0 :
 if num == s:
     print("armstrong number")
 else:
-    print("not a number")
+    print("not a number", num)
