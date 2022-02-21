@@ -4,7 +4,7 @@ def power(x,y):
     else:
         return 0
 
-x = 2
+x = 3
 y = 5
 result = power(x,y)
 print(result)
