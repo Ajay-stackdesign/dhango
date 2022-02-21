@@ -4,22 +4,22 @@
 # element.pop()
 # print(element)
 
-# def bubble_sort(element):
-#     size = len(element)
-#     for i in range(size-1):
-#         swapped = False;
-#         for j in range(size-1-i):
-#             if element[j] > element[j+1]:
-#                 temp = element[j]
-#                 element[j] = element[j+1]
-#                 element[j+1] = temp
-#                 swapped = True
-#         if not swapped:
-#             break
-# if __name__ =='__main__':
-#     elements = [34,2,3,4,33,2,53]
-#     bubble_sort(elements)
-#     print(elements)
+def bubble_sort(element):
+    size = len(element)
+    for i in range(size-1):
+        swapped = False;
+        for j in range(size-1-i):
+            if element[j] > element[j+1]:
+                temp = element[j]
+                element[j] = element[j+1]
+                element[j+1] = temp
+                swapped = True
+        if not swapped:
+            break
+if __name__ =='__main__':
+    elements = [34,2,3,4,33,2,53]
+    bubble_sort(elements)
+    print(elements)
 
 # def bubble_sort(elements):
 #     size = len(elements)
