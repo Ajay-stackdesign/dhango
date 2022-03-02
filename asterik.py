@@ -3,6 +3,7 @@ def locate_card():
     a = 4
     b = 2
     result = a**b
-    print(result)
+    return result
 
-locate_card()
+result = locate_card()
+print(result)
