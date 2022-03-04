@@ -44,19 +44,37 @@
 #
 
 
-def linearSearch(arr, n, query):
+# def linearSearch(arr, n, query):
+#
+#     for x in range(0,n):
+#         if(arr[x] == query):
+#             return x;
+#     return -1
+#
+# arr = [10,50,30,70,80,60,20,90,40]
+# n = len(arr)
+# query = 20
+#
+# result = linearSearch(arr,n,query)
+# if(result == query):
+#     print("value is present")
+# else:
+#     print("value is not present")
 
-    for x in range(0,n):
-        if(arr[x] == query):
-            return x;
-    return -1
 
-arr = [10,50,30,70,80,60,20,90,40]
-n = len(arr)
-query = 20
+class Linear:
+    def linear__Search(self, n , arr, k):
 
-result = linearSearch(arr,n,query)
-if(result == query):
-    print("value is present")
-else:
-    print("value is not present")
+        for i in range(0, n):
+            if arr[i] == k:
+                return True
+        return False
+
+
+if __name__ == "__main__":
+    li = Linear()
+    arr = [20,21,14,4]
+    k = 21
+    n = 4
+    li.linear__Search(n, arr, k )
+
