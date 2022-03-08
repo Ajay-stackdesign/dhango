@@ -12,6 +12,7 @@ class Graph:
     def get_paths(self, start, end, path=[]):
         path = path + [start]
 
+##
         if start == end:
             return [path]
 
