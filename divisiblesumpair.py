@@ -5,6 +5,7 @@ def divisibleSumPairs(n, k, ar):
         for j in range(0+i, len(ar)):
             if (ar[i] + ar[j] % k) == 0:
                 count+=1
+                
     return count
 
 n = 6
