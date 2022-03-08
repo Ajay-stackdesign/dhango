@@ -32,6 +32,7 @@ elif op == "/" :
     print(num4 / num5);
 else :
     print("enter a valid operator")
+    
 
 list = [2,10,1,12,43]
 print(list[::-1])
