@@ -130,6 +130,7 @@ def binar_search(arr , query):
 
 
 if __name__ == '__main__':
+    
     arr = [1,3,2]
     merge_sort(arr)
     print(binar_search(arr,2))
